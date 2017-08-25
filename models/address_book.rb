@@ -1,5 +1,6 @@
  require_relative 'entry'
  require "csv"
+ require "pry"
 
    class AddressBook
      attr_reader :entries
@@ -67,8 +68,8 @@
          if entry.name == name
            return entry
          end
-         return nil
        end
+       nil
      end
 
    end
